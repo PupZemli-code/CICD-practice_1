@@ -5,6 +5,7 @@ import (
 	"sync"
 )
 
+// main
 func main() {
 	var wg sync.WaitGroup
 	wg.Add(5)
